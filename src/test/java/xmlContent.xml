@@ -1,0 +1,2889 @@
+<?xml version="1.0" ?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+    <OperationRequest>
+        <HTTPHeaders>
+            <Header Name="UserAgent"
+                    Value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.132 Safari/537.36"></Header>
+        </HTTPHeaders>
+        <RequestId>69841b95-7e37-46c3-be02-fc4f796689e2</RequestId>
+        <Arguments>
+            <Argument Name="AWSAccessKeyId" Value="xxxxx"></Argument>
+            <Argument Name="AssociateTag" Value="xxxxx"></Argument>
+            <Argument Name="Keywords" Value="iphone 7"></Argument>
+            <Argument Name="Operation" Value="ItemSearch"></Argument>
+            <Argument Name="ResponseGroup" Value="Images,ItemAttributes,Offers"></Argument>
+            <Argument Name="SearchIndex" Value="All"></Argument>
+            <Argument Name="Service" Value="AWSECommerceService"></Argument>
+            <Argument Name="Timestamp" Value="2017-06-25T12:12:20Z"></Argument>
+            <Argument Name="Signature" Value="lC8lzR4nR4okwbNJmywW4uc70CZ3ujpXiPMeD3sLF8A="></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.2578206200000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemSearchRequest>
+                <Keywords>iphone 7</Keywords>
+                <ResponseGroup>Images</ResponseGroup>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <ResponseGroup>Offers</ResponseGroup>
+                <SearchIndex>All</SearchIndex>
+            </ItemSearchRequest>
+        </Request>
+        <TotalResults>1249668</TotalResults>
+        <TotalPages>124967</TotalPages>
+        <MoreSearchResultsUrl>https://www.amazon.in/gp/search?linkCode=xm2&amp;SubscriptionId=xxxxx&amp;keywords=iphone%207&amp;tag=xxxxx&amp;creative=165953&amp;url=search-alias%3Daws-amazon-aps&amp;camp=2025</MoreSearchResultsUrl>
+        <Item>
+            <ASIN>B01LZKSVRB</ASIN>
+            <ParentASIN>B06XXHC5XW</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-7-Black-32GB/dp/B01LZKSVRB?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01LZKSVRB&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01LZKSVRB?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01LZKSVRB?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01LZKSVRB?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">38</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">81</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">254</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">41</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">41</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">60</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">87</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">272</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">2</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">4</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">4</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">7</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">10</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">30</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">56</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">81</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">254</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Black</Color>
+                <EAN>0190198066879</EAN>
+                <EANList>
+                    <EANListElement>0190198066879</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, Quad-LED True Tone flash and Live Photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps, 7MP front facing
+                    FaceTime HD camera with Retina Flash
+                </Feature>
+                <Feature>4.7-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1334x750 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    32GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 1960 mAh battery (7.45 Wh) providing talktime up to 14 hours on 3G
+                    network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <LegalDisclaimer>GENUINE APPLE INDIA PRODUCT, 1 YEAR INTERNATIONAL WARRANTY, GENUINE INVOICE WITH SERIAL
+                    NUMBER AND IMEI NUMBER, ORIGINAL PACKED, SEALED PRODUCT. BRAND NEW PRODUCT.
+                </LegalDisclaimer>
+                <ListPrice>
+                    <Amount>6000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 60,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7</Model>
+                <MPN>ECE_Dummy_114</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">197</Height>
+                    <Length Units="hundredths-inches">614</Length>
+                    <Weight Units="hundredths-pounds">88</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_114</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>32 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 (Black, 32GB)</Title>
+                <UPC>190198066879</UPC>
+                <UPCList>
+                    <UPCListElement>190198066879</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>4249900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 42,499.00</FormattedPrice>
+                </LowestNewPrice>
+                <LowestUsedPrice>
+                    <Amount>3999900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 39,999.00</FormattedPrice>
+                </LowestUsedPrice>
+                <TotalNew>7</TotalNew>
+                <TotalUsed>1</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01LZKSVRB?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKSVRB</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            ypg0pOLIqU4YsKFHJF%2FZ7B%2F7X3uxdKqekt20Yv6dS3LMoOCtAf%2Bm%2FlPp%2B4Vr%2BJh30vz1ta4y4lWqUmTsr3L59O2gSCqFi%2FBOiZ6P4%2FEN5fRjv27YGTJ3c4wo8%2FEs%2BOF4
+                        </OfferListingId>
+                        <Price>
+                            <Amount>4249900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 42,499.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1750100</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 17,501.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>29</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01M0811EC</ASIN>
+            <ParentASIN>B06XXHC5XW</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-Jet-Black-128GB/dp/B01M0811EC?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01M0811EC&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01M0811EC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01M0811EC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01M0811EC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">38</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">82</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">256</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">58</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">84</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31KSA1SdOAL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">264</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">4</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">11</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">11</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">16</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">23</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21pbHTlaX6L.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">72</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31ybsCcgWeL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">56</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">82</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51C4mWN69QL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">256</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Jet Black</Color>
+                <EAN>0190198069757</EAN>
+                <EANList>
+                    <EANListElement>0190198069757</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, Quad-LED True Tone flash and Live Photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps, 7MP front facing
+                    FaceTime HD camera with Retina Flash
+                </Feature>
+                <Feature>4.7-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1334x750 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    128GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 1960 mAh battery (7.45 Wh) providing talktime up to 14 hours on 3G
+                    network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <LegalDisclaimer>Genuine Apple India Product, 1 Year Warranty At all Apple Authorised Service centres.
+                    Sealed Pack Product. Genuine Invoice with serial number and IMEI Number for warranty Purpose. 100%
+                    Authentic Indian product.
+                </LegalDisclaimer>
+                <ListPrice>
+                    <Amount>7000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 70,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7</Model>
+                <MPN>ECE_Dummy_119</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">197</Height>
+                    <Length Units="hundredths-inches">622</Length>
+                    <Weight Units="hundredths-pounds">150</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_119</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>128 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 (Jet Black, 128GB)</Title>
+                <UPC>190198069757</UPC>
+                <UPCList>
+                    <UPCListElement>190198069757</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>5549000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 55,490.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>4</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01M0811EC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01M0811EC</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            fQGDZ2nU1Kib3sBTGK2Hz8K3z84aCN4AXznQVcamlFztF85NJDJJCxmUbF%2F0L4DbnPz%2Fr5YCs5s0nB50AP0r00CrHKGduqCo3MbCWdcKG8RuAVGuthzEeT4hKqyX%2BASxPc0Jy7143APxFJBzVo4FZv75coX8tdbg
+                        </OfferListingId>
+                        <Price>
+                            <Amount>5549000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 55,490.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1451000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 14,510.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>21</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01LXASAI9</ASIN>
+            <ParentASIN>B06XX22YDH</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-Plus-Black-128GB/dp/B01LXASAI9?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01LXASAI9&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01LXASAI9?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01LXASAI9?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01LXASAI9?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">40</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">86</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">268</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">59</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">86</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RhIb7CfkL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">268</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">4</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">9</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">9</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">13</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">19</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21E80i2tKML.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">60</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">17</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">43</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">43</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">63</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">92</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31yp29NnmVL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">286</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">40</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">59</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">86</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51Cqn38lCEL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">268</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Jet Black</Color>
+                <EAN>0190198045072</EAN>
+                <EANList>
+                    <EANListElement>0190198045072</EANListElement>
+                </EANList>
+                <Feature>12MP primary cameras with optical zoom at 2x, digital zoom up to 10x, optical image
+                    stabilisation, Quad-LED True Tone flash and Live Photos, 4K video recording at 30 fps and
+                    slow-motion video recording in 1080p at 120 fps, 7MP front facing FaceTime HD camera with Retina
+                    Flash
+                </Feature>
+                <Feature>5.5-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1920x1080 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    128GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 2900 mAh battery (11.1 Wh) providing talktime up to 21 hours and 384 hours
+                    on 3G network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">307</Height>
+                    <Length Units="hundredths-inches">622</Length>
+                    <Weight Units="hundredths-pounds">41</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <LegalDisclaimer>Genuine Apple India Product, Sealed Pack Product, Genuine Invoice with IMEI Number for
+                    Warranty Purpose. 1 Year Warranty at all Apple Authorized Service centres. Original Product.
+                </LegalDisclaimer>
+                <ListPrice>
+                    <Amount>8200000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 82,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7 Plus</Model>
+                <MPN>ECE_Dummy_133</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">197</Height>
+                    <Length Units="hundredths-inches">693</Length>
+                    <Weight Units="hundredths-pounds">93</Weight>
+                    <Width Units="hundredths-inches">378</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_133</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>128 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 Plus (Jet Black, 128GB)</Title>
+                <UPC>190198045072</UPC>
+                <UPCList>
+                    <UPCListElement>190198045072</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>6489900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 64,899.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>7</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01LXASAI9?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXASAI9</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            PIi8m8gi3YMyin5LX0JGlIbD2sM2INBdVwHr%2FKEcBaos7G8wFJY%2Fr9Jjel%2F1VLfxLe5yMRzXPS9HJQwEiydAmqFJMNdtK0xgVFX6Xkqp26byuAp9JuFIOxRalHJqh5x1DYx88h92Xvvr%2FMDp0q42OsVXUuGsjfjP
+                        </OfferListingId>
+                        <Price>
+                            <Amount>6489900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 64,899.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1710100</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 17,101.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>21</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01LXAS8M2</ASIN>
+            <ParentASIN>B06XXHC5XW</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-7-Black-128GB/dp/B01LXAS8M2?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01LXAS8M2&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01LXAS8M2?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01LXAS8M2?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01LXAS8M2?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">38</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">81</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">254</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">41</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">41</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">60</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">87</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31xRVo35ySL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">272</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">2</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">4</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">4</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">7</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">10</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21NQDONXxjL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">30</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/316B9Q7SFLL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">56</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">81</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51odjdfuPTL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">254</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Black</Color>
+                <EAN>0190198068316</EAN>
+                <EANList>
+                    <EANListElement>0190198068316</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, Quad-LED True Tone flash and Live Photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps, 7MP front facing
+                    FaceTime HD camera with Retina Flash
+                </Feature>
+                <Feature>4.7-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1334x750 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    128GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 1960 mAh battery (7.45 Wh) providing talktime up to 14 hours on 3G
+                    network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <ListPrice>
+                    <Amount>7000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 70,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7</Model>
+                <MPN>ECE_Dummy_118</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">205</Height>
+                    <Length Units="hundredths-inches">622</Length>
+                    <Weight Units="hundredths-pounds">88</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_118</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>128 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 (Black, 128GB)</Title>
+                <UPC>190198068316</UPC>
+                <UPCList>
+                    <UPCListElement>190198068316</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>5149900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 51,499.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>6</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01LXAS8M2?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LXAS8M2</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            SZSAOleLs4oWPZa0Vpz%2FiRAQfJqDyCpLJup7MXiiD2996%2FeQOQ%2B%2FnX8wwhGg8yTG6pJDQV4eJ7ApqQ%2Fp6%2FlEbZq27ukhDa5bHt1IONp6jYd7B7RsErkk3FxeUK2g3ZDh
+                        </OfferListingId>
+                        <Price>
+                            <Amount>5149900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 51,499.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1850100</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 18,501.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>26</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01LZWIOS4</ASIN>
+            <ParentASIN>B06XXHC5XW</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-Rose-Gold-32GB/dp/B01LZWIOS4?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01LZWIOS4&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01LZWIOS4?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01LZWIOS4?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01LZWIOS4?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">38</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">82</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">255</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">58</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">84</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/314PcnUo44L.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">262</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">4</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">10</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">10</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">15</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">22</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Tigls5dJL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">70</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41KgflqGbDL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">56</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">82</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51AUm5TYJsL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">255</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Rose Gold</Color>
+                <EAN>0190198067951</EAN>
+                <EANList>
+                    <EANListElement>0190198067951</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, Quad-LED True Tone flash and Live Photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps, 7MP front facing
+                    FaceTime HD camera with Retina Flash
+                </Feature>
+                <Feature>4.7-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1334x750 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    32GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 1960 mAh battery (7.45 Wh) providing talktime up to 14 hours on 3G
+                    network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <ListPrice>
+                    <Amount>6000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 60,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7</Model>
+                <MPN>ECE_Dummy_112</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">205</Height>
+                    <Length Units="hundredths-inches">622</Length>
+                    <Weight Units="hundredths-pounds">88</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_112</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>32 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 (Rose Gold, 32GB)</Title>
+                <UPC>190198067951</UPC>
+                <UPCList>
+                    <UPCListElement>190198067951</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>4429000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 44,290.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>5</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01LZWIOS4?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZWIOS4</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            nIHnYc1NIfxDC8VaJXW7oNn1TKfVP%2BVzt%2BtUrFVGrf4vY6lxDpJGczpzZSffB87HkAEQOLGcuOZMuT%2ByDzcKb3oBy1y%2F4Ht9vDGE05LjezYIz6UpDKIbq8Wy5L3XbDbMvQ9%2FhEhzL%2BZeuVlM7APbC9GaMan0LCEY
+                        </OfferListingId>
+                        <Price>
+                            <Amount>4429000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 44,290.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1571000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 15,710.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>26</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01LZKLPVQ</ASIN>
+            <ParentASIN>B06XXHC5XW</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-7-Gold-32GB/dp/B01LZKLPVQ?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01LZKLPVQ&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01LZKLPVQ?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01LZKLPVQ?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01LZKLPVQ?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">39</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">83</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">260</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">57</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">83</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RcYfD2FvL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">260</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">4</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">9</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">9</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">13</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">19</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21Kh96ax1nL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">60</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uhhGosFVL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">16</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">39</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">57</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">83</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51StBYU9XfL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">260</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Gold</Color>
+                <EAN>0190198067593</EAN>
+                <EANList>
+                    <EANListElement>0190198067593</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, Quad-LED True Tone flash and Live Photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps, 7MP front facing
+                    FaceTime HD camera with Retina Flash
+                </Feature>
+                <Feature>4.7-inch (diagonal) Retina HD 3D Touch capacitive touchscreen display and home button with
+                    1334x750 resolution and wide colour, Splash, water and dust resistant
+                </Feature>
+                <Feature>iOS 10 and iCloud operating system with A10 Fusion chip with integrated M10 motion coprocessor,
+                    32GB internal memory and single Nano-SIM
+                </Feature>
+                <Feature>Non-removable Li-Ion 1960 mAh battery (7.45 Wh) providing talktime up to 14 hours on 3G
+                    network
+                </Feature>
+                <Feature>1 year manufacturer warranty for device and in-box accessories including batteries from the
+                    date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <ListPrice>
+                    <Amount>6000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 60,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>iPhone 7</Model>
+                <MPN>ECE_Dummy_111</MPN>
+                <OperatingSystem>iOS 10.0.1</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">197</Height>
+                    <Length Units="hundredths-inches">622</Length>
+                    <Weight Units="hundredths-pounds">88</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>ECE_Dummy_111</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <ReleaseDate>2016-10-07</ReleaseDate>
+                <Size>32 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 (Gold, 32GB)</Title>
+                <UPC>190198067593</UPC>
+                <UPCList>
+                    <UPCListElement>190198067593</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>4429000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 44,290.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>3</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01LZKLPVQ?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01LZKLPVQ</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            SZSAOleLs4oWPZa0Vpz%2FiR9LPF5F%2Fz4xhnRR1fgjrfQ%2BdjGlT%2BecsL84XaSeNew16vBZ74tXFUdwPg3X6Cu3Wa8%2BWqJsu4v%2F1GIkblRmlbqFEVtjJ4r8EVlhWbh5kQpwFbwCk%2BEGtkzlnVAAJ3KwXOVOSe%2Fi7B0U
+                        </OfferListingId>
+                        <Price>
+                            <Amount>4429000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 44,290.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1571000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 15,710.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>26</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B01N1TYYXM</ASIN>
+            <ParentASIN>B06Y5W5X1P</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/Apple-iPhone-128GB-PRODUCT-RED/dp/B01N1TYYXM?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B01N1TYYXM&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B01N1TYYXM?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B01N1TYYXM?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B01N1TYYXM?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">38</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">80</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">251</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">55</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">81</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/312f-5MneGL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">252</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">3</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">6</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">6</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">9</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">13</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/21jgguKQoDL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">42</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL._SL30_.jpg</URL>
+                        <Height Units="pixels">27</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL._SL75_.jpg</URL>
+                        <Height Units="pixels">66</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL._SL75_.jpg</URL>
+                        <Height Units="pixels">66</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL._SL110_.jpg</URL>
+                        <Height Units="pixels">97</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL._SL160_.jpg</URL>
+                        <Height Units="pixels">142</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/31RRDIyk2pL.jpg</URL>
+                        <Height Units="pixels">443</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">20</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">50</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">73</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">107</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41uQd1YlgfL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">333</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">15</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">38</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">55</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">80</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51BR204yKjL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">251</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Apple</Brand>
+                <Color>Red</Color>
+                <EAN>0190198360267</EAN>
+                <EANList>
+                    <EANListElement>0190198360267</EANListElement>
+                </EANList>
+                <Feature>12MP primary camera with optical image stabilisation, quad-LED true tone flash and live photos,
+                    4K video recording at 30 fps and slow-motion video recording in 1080p at 120 fps and 7MP front
+                    facing facetime HD camera with retina flash
+                </Feature>
+                <Feature>11.93 centimeters (4.7-inch) LCD capacitive touchscreen with 750 x 1334 pixels resolution, 326
+                    ppi pixel density, 16M color support with wide colour, splash, water and dust resistant
+                </Feature>
+                <Feature>IOS v10.3 operating system with 1.3GHz Apple A10 Fusion chip with integrated M10 motion quad
+                    core processor, 2GB RAM, 128 internal memory and single nano SIM
+                </Feature>
+                <Feature>Non-removable 1960mAH lithium-ion battery providing talk-time of 14 hours</Feature>
+                <Feature>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Feature>
+                <ItemDimensions>
+                    <Height Units="hundredths-inches">264</Height>
+                    <Length Units="hundredths-inches">543</Length>
+                    <Weight Units="hundredths-pounds">30</Weight>
+                    <Width Units="hundredths-inches">28</Width>
+                </ItemDimensions>
+                <Label>Apple Computer</Label>
+                <LegalDisclaimer>Genuine Apple India Product, Sealed Pack Product, Genuine Invoice with IMEI Number for
+                    Warranty Purpose. 1 Year Warranty at all Apple Authorized Service centres. Original Product.
+                </LegalDisclaimer>
+                <ListPrice>
+                    <Amount>7000000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 70,000.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Apple Computer</Manufacturer>
+                <Model>Iphone 7</Model>
+                <MPN>APE_Iphone7_RED_128GB</MPN>
+                <OperatingSystem>IOS</OperatingSystem>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">197</Height>
+                    <Length Units="hundredths-inches">614</Length>
+                    <Weight Units="hundredths-pounds">88</Weight>
+                    <Width Units="hundredths-inches">339</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>APE_Iphone7_RED_128GB</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>Apple Computer</Publisher>
+                <Size>128 GB</Size>
+                <Studio>Apple Computer</Studio>
+                <Title>Apple iPhone 7 128GB (PRODUCT) RED</Title>
+                <UPC>190198360267</UPC>
+                <UPCList>
+                    <UPCListElement>190198360267</UPCListElement>
+                </UPCList>
+                <Warranty>1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box
+                    accessories including batteries from the date of purchase
+                </Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>6190000</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 61,900.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>5</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B01N1TYYXM?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B01N1TYYXM</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            %2Fm9UPcns%2BNdZbpRZQVk9s6eSAtqoL5D9JdLeoD0v1lHAuqDP7Lg9ks8XWeVTzxTmwJ5%2BGCP4HCzwfcHn%2B3FVx8gGM%2BDLDvganWrPU2bDulSbLAVqCZSU7LVl5V0w%2FEQh
+                        </OfferListingId>
+                        <Price>
+                            <Amount>6190000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 61,900.00</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>810000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 8,100.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>12</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B06XQYWSMC</ASIN>
+            <ParentASIN>B072QXY44X</ParentASIN>
+            <DetailPageURL>https://www.amazon.in/WOW-Imagine-Silicone-Protection-Shockproof/dp/B06XQYWSMC?psc=1&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B06XQYWSMC&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B06XQYWSMC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B06XQYWSMC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B06XQYWSMC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL75_.jpg</URL>
+                <Height Units="pixels">71</Height>
+                <Width Units="pixels">75</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL160_.jpg</URL>
+                <Height Units="pixels">152</Height>
+                <Width Units="pixels">160</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL.jpg</URL>
+                <Height Units="pixels">475</Height>
+                <Width Units="pixels">500</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L._SL30_.jpg</URL>
+                        <Height Units="pixels">27</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L._SL75_.jpg</URL>
+                        <Height Units="pixels">68</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L._SL75_.jpg</URL>
+                        <Height Units="pixels">68</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L._SL110_.jpg</URL>
+                        <Height Units="pixels">100</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L._SL160_.jpg</URL>
+                        <Height Units="pixels">146</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41vV7ze4V7L.jpg</URL>
+                        <Height Units="pixels">455</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL._SL30_.jpg</URL>
+                        <Height Units="pixels">27</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL._SL75_.jpg</URL>
+                        <Height Units="pixels">67</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL._SL75_.jpg</URL>
+                        <Height Units="pixels">67</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL._SL110_.jpg</URL>
+                        <Height Units="pixels">99</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL._SL160_.jpg</URL>
+                        <Height Units="pixels">144</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41QwVVCdprL.jpg</URL>
+                        <Height Units="pixels">449</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L._SL30_.jpg</URL>
+                        <Height Units="pixels">28</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L._SL75_.jpg</URL>
+                        <Height Units="pixels">70</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L._SL75_.jpg</URL>
+                        <Height Units="pixels">70</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L._SL110_.jpg</URL>
+                        <Height Units="pixels">103</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L._SL160_.jpg</URL>
+                        <Height Units="pixels">149</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41DVPctXz1L.jpg</URL>
+                        <Height Units="pixels">466</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41pqNME77zL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L._SL30_.jpg</URL>
+                        <Height Units="pixels">28</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L._SL75_.jpg</URL>
+                        <Height Units="pixels">69</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L._SL75_.jpg</URL>
+                        <Height Units="pixels">69</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L._SL110_.jpg</URL>
+                        <Height Units="pixels">102</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L._SL160_.jpg</URL>
+                        <Height Units="pixels">148</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41JdKwyq03L.jpg</URL>
+                        <Height Units="pixels">463</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">28</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">69</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">69</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">102</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">148</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/51pY8FTJagL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">463</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL30_.jpg</URL>
+                        <Height Units="pixels">28</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL75_.jpg</URL>
+                        <Height Units="pixels">71</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL75_.jpg</URL>
+                        <Height Units="pixels">71</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL110_.jpg</URL>
+                        <Height Units="pixels">104</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL._SL160_.jpg</URL>
+                        <Height Units="pixels">152</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41a%2BHuEiFXL.jpg</URL>
+                        <Height Units="pixels">475</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>WOW Imagine</Brand>
+                <Color>Pitch Black</Color>
+                <Feature>For Apple iPhone 7 (Circular Cut / Apple Cut - as per stoclt Availibility)</Feature>
+                <Feature>Superior Finish : Our Patent applied Embedded Infused Color Technology (EICT2).</Feature>
+                <Feature>An excellent fit for the iPhone 7. All cutouts and buttons are precisely designed to access all
+                    your device's features.
+                </Feature>
+                <Feature>Pitch Black colour with MATTE finish. Fingerprint proof, Anti-dust, washable &amp;
+                    tear-resistant.
+                </Feature>
+                <Feature>Scratch Proof Coating for lasting Durability. Rubberised Hard Case UltraSmooth feel. Also
+                    features the Upper lip build design to help protect the screen when face down on a flat surface.
+                    Cutouts may vary.
+                </Feature>
+                <Label>ImagineDesign</Label>
+                <ListPrice>
+                    <Amount>22900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 229.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>ImagineDesign</Manufacturer>
+                <Model>SADT-AIP7/BLK</Model>
+                <MPN>SADT-AIP7-BLK</MPN>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">39</Height>
+                    <Length Units="hundredths-inches">547</Length>
+                    <Weight Units="hundredths-pounds">4</Weight>
+                    <Width Units="hundredths-inches">343</Width>
+                </PackageDimensions>
+                <PartNumber>SADT-AIP7-BLK</PartNumber>
+                <ProductGroup>CE</ProductGroup>
+                <ProductTypeName>PHONE_ACCESSORY</ProductTypeName>
+                <Publisher>ImagineDesign</Publisher>
+                <Studio>ImagineDesign</Studio>
+                <Title>WOW Imagine(TM) Soft Silicone All Sides Protection "360 Degree" With Anti Dust Plugs Shockproof
+                    Slim Back Case Cover For Apple iPhone 7 (4.7 inch Screen) - Pitch Black
+                </Title>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>19900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 199.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>6</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B06XQYWSMC?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XQYWSMC</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            nIHnYc1NIfw%2FPe%2BWTWdbKi7L55JSn88ueL5ODW7%2B%2Bldn14iUkgPjytqofqeDJHrDHKWGF8WCdjpxrOIye2dsJDu6wMIl%2FrNtkfBs9bZCISCKrww1sgnnqtnqsqy1m3Q9TS%2F74aKXvkhdL%2Bhan2tk%2BsSZlejQqV%2Bw
+                        </OfferListingId>
+                        <Price>
+                            <Amount>99900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 999.00</FormattedPrice>
+                        </Price>
+                        <SalePrice>
+                            <Amount>22900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 229.00</FormattedPrice>
+                        </SalePrice>
+                        <AmountSaved>
+                            <Amount>77000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 770.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>77</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B06ZXVPD6T</ASIN>
+            <DetailPageURL>
+                https://www.amazon.in/Apple-iPhone-Chevron-Silicone-Shockproof/dp/B06ZXVPD6T?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B06ZXVPD6T&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B06ZXVPD6T?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B06ZXVPD6T?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B06ZXVPD6T?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">72</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">153</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">479</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL._SL30_.jpg</URL>
+                        <Height Units="pixels">29</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL._SL75_.jpg</URL>
+                        <Height Units="pixels">72</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL._SL75_.jpg</URL>
+                        <Height Units="pixels">72</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL._SL110_.jpg</URL>
+                        <Height Units="pixels">106</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL._SL160_.jpg</URL>
+                        <Height Units="pixels">155</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41K1jyKCmyL.jpg</URL>
+                        <Height Units="pixels">483</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L._SL30_.jpg</URL>
+                        <Height Units="pixels">27</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L._SL75_.jpg</URL>
+                        <Height Units="pixels">67</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L._SL75_.jpg</URL>
+                        <Height Units="pixels">67</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L._SL110_.jpg</URL>
+                        <Height Units="pixels">99</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L._SL160_.jpg</URL>
+                        <Height Units="pixels">144</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41BdUp1iI8L.jpg</URL>
+                        <Height Units="pixels">449</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41ipRUCGUNL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41LOBmDiPlL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="variant">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41F%2Blmsng2L.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">29</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">72</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">72</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">105</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">153</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41XdeW74raL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">479</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>Chevron</Brand>
+                <Feature>100% GENUINE: Chevron® case for iPhone 7 made of high quality material.</Feature>
+                <Feature>EASY TO INSTALL AND REMOVE: Feels great in hand. Protects your Mobile Phone from scratches,
+                    finger prints and dumps
+                </Feature>
+                <Feature>PERFECT COMPATIBILITY: An excellent fit for the iPhone 7. All cutouts and buttons are precisely
+                    designed to access all your device's features.
+                </Feature>
+                <Feature>SHOCK PROOF TECHNOLOGY: Bumpers with Anti-Shock Cushion Technology for protection against small
+                    and accidental drops
+                </Feature>
+                <Label>Chevron</Label>
+                <ListPrice>
+                    <Amount>59900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 599.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Chevron</Manufacturer>
+                <Model>IPHONE7_SOFTSILICON_BLACK</Model>
+                <MPN>IPHONE7_SOFTSILICON_BLACK</MPN>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">59</Height>
+                    <Length Units="hundredths-inches">669</Length>
+                    <Weight Units="hundredths-pounds">7</Weight>
+                    <Width Units="hundredths-inches">354</Width>
+                </PackageDimensions>
+                <PartNumber>IPHONE7_SOFTSILICON_BLACK</PartNumber>
+                <ProductGroup>CE</ProductGroup>
+                <ProductTypeName>PHONE_ACCESSORY</ProductTypeName>
+                <Publisher>Chevron</Publisher>
+                <Studio>Chevron</Studio>
+                <Title>For Apple iPhone 7 - Chevron Soft Silicone Shockproof Slim Back Cover Case For Apple iPhone 7 -
+                    Space Black
+                </Title>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>19900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 199.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>1</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B06ZXVPD6T?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06ZXVPD6T</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            nIHnYc1NIfw%2FPe%2BWTWdbKrEtzT%2BaFQEZz2unPw0JHjr0QPgTkCdQbN3991gL168Hzy4Ar7kLjMFZ6g7bnG3aMiM6bKVK3UTL3P70tOTM5nfeNgH3fl7KbttqFZLXOwglvZxRPvmxRxfF0kN48pmwAz5di5zOZlnq
+                        </OfferListingId>
+                        <Price>
+                            <Amount>59900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 599.00</FormattedPrice>
+                        </Price>
+                        <SalePrice>
+                            <Amount>19900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 199.00</FormattedPrice>
+                        </SalePrice>
+                        <AmountSaved>
+                            <Amount>40000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 400.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>67</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+        <Item>
+            <ASIN>B06XHSQG1P</ASIN>
+            <DetailPageURL>
+                https://www.amazon.in/MARK-AMPLE-Lightning-Charging-iPhone/dp/B06XHSQG1P?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P
+            </DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.in/gp/registry/wishlist/add-item.html?asin.0=B06XHSQG1P&amp;SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.in/gp/pdp/taf/B06XHSQG1P?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.in/review/product/B06XHSQG1P?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.in/gp/offer-listing/B06XHSQG1P?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SmallImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL75_.jpg</URL>
+                <Height Units="pixels">75</Height>
+                <Width Units="pixels">75</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL160_.jpg</URL>
+                <Height Units="pixels">160</Height>
+                <Width Units="pixels">160</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL.jpg</URL>
+                <Height Units="pixels">500</Height>
+                <Width Units="pixels">500</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category="primary">
+                    <SwatchImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL30_.jpg</URL>
+                        <Height Units="pixels">30</Height>
+                        <Width Units="pixels">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL75_.jpg</URL>
+                        <Height Units="pixels">75</Height>
+                        <Width Units="pixels">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL110_.jpg</URL>
+                        <Height Units="pixels">110</Height>
+                        <Width Units="pixels">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL._SL160_.jpg</URL>
+                        <Height Units="pixels">160</Height>
+                        <Width Units="pixels">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-eu.ssl-images-amazon.com/images/I/41N0kNBa0DL.jpg</URL>
+                        <Height Units="pixels">500</Height>
+                        <Width Units="pixels">500</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Electronics</Binding>
+                <Brand>MARK AMPLE</Brand>
+                <Color>SILVER</Color>
+                <EAN>1974652937122</EAN>
+                <EANList>
+                    <EANListElement>1974652937122</EANListElement>
+                </EANList>
+                <Feature>Support 2.1A current for fast charging and high speed data transmission.</Feature>
+                <Feature>Steel Rope Series King Kong Cable For Apple iPhone 5/5S/5C/6/6S/6Plus/7/7 Plus/ Apple iPad
+                    Air/Air 2/iPad Mini/5SE and more
+                </Feature>
+                <Feature>Perfect Compatibility - For Apple iPhone 5/iPhone 6/6S/6Plus/ 7/7 Plus / Apple iPad Air/Air
+                    2/iPad Mini/5SE and more.No Error Messages.
+                </Feature>
+                <Feature>Durability - A perfect connection with your device, no gaps or static electricity. Copper
+                    conductive pins are extra durable and never rust.
+                </Feature>
+                <Feature>Stainless Steel 304 Tube, Not Easy to Brake.</Feature>
+                <Label>MARK AMPLE</Label>
+                <ListPrice>
+                    <Amount>89900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 899.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>MARK AMPLE</Manufacturer>
+                <MPN>zink alloy cable iphone</MPN>
+                <PackageDimensions>
+                    <Height Units="hundredths-inches">67</Height>
+                    <Length Units="hundredths-inches">319</Length>
+                    <Weight Units="hundredths-pounds">8</Weight>
+                    <Width Units="hundredths-inches">299</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>zink alloy cable iphone</PartNumber>
+                <ProductGroup>Wireless</ProductGroup>
+                <ProductTypeName>PHONE</ProductTypeName>
+                <Publisher>MARK AMPLE</Publisher>
+                <Studio>MARK AMPLE</Studio>
+                <Title>MARK AMPLE Steel Rope Series 1.0 M Zinc Alloy 8 Pin Lightning Fast Charging Cable for iPhone
+                    7/6/6S/5/5S/Apple iPad - silver (6 month warranty)
+                </Title>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>54900</Amount>
+                    <CurrencyCode>INR</CurrencyCode>
+                    <FormattedPrice>INR 549.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>1</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.in/gp/offer-listing/B06XHSQG1P?SubscriptionId=xxxxx&amp;tag=xxxxx&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XHSQG1P</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>
+                            nIHnYc1NIfw%2FPe%2BWTWdbKqxrpXf02Y2yW%2FKSxR8BG1YEemWaecZQIfpJ6B9DS7O86C3pI%2BmHJ%2BKx%2BQcmrrKTDmUuNGRDTUew3kH9ZqS8zetW6Fu8kpeIcnYDQ4fxgOPWvf7I7dLaOs6kgZCcFRjPsepVrV2xIQ5c
+                        </OfferListingId>
+                        <Price>
+                            <Amount>89900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 899.00</FormattedPrice>
+                        </Price>
+                        <SalePrice>
+                            <Amount>54900</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 549.00</FormattedPrice>
+                        </SalePrice>
+                        <AmountSaved>
+                            <Amount>35000</Amount>
+                            <CurrencyCode>INR</CurrencyCode>
+                            <FormattedPrice>INR 350.00</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>39</PercentageSaved>
+                        <Availability>Usually dispatched within 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+        </Item>
+    </Items>
+</ItemSearchResponse>
