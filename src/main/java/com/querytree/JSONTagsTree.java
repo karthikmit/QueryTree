@@ -2,10 +2,7 @@ package com.querytree;
 
 import com.google.gson.Gson;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * QueryTree implementation for JSON content.
@@ -28,28 +25,36 @@ class JSONTagsTree implements QueryTree{
     }
 
     /**
-     * Returns null, if query can't be processed successfully.
-     * @param query
-     * @return
+     * @param query Object Path Query. Check {@link QueryTree}
+     * @return Object if the query is successful, or null.
      */
     @Override
     public Object eval(String query) {
         String[] queryTokens = query.split("->");
         JSONTagHolder current = root;
-        for(int i = 0; i < queryTokens.length; i++) {
-
-            String queryToken = queryTokens[i];
-            if(queryToken.contains("[")) {
+        for (String queryToken : queryTokens) {
+            if (queryToken.contains("[")) {
                 String[] split = queryToken.split("\\[");
                 queryToken = split[0];
+                JSONTagHolder tagHolder = current.getChildren().get(queryToken);
 
                 String indexSuffix = split[1];
                 indexSuffix = indexSuffix.split("\\]")[0];
-                int index = Integer.parseInt(indexSuffix);
 
-                JSONTagHolder tagHolder = current.getChildren().get(queryToken);
-                current = tagHolder.getChildren().get(indexSuffix);
-            } else if(current.getChildren().containsKey(queryToken)) {
+                if (indexSuffix.equals("*")) {
+                    List<Object> collection = new ArrayList<>();
+                    int size = tagHolder.children.size();
+                    for (int index = 0; index < size; index++) {
+                        JSONTagHolder jsonTagHolder = tagHolder.children.get(String.valueOf(index));
+                        collection.add(jsonTagHolder.getObjectReference());
+                    }
+
+                    return collection;
+                } else {
+                    int index = Integer.parseInt(indexSuffix);
+                    current = tagHolder.getChildren().get(indexSuffix);
+                }
+            } else if (current.getChildren().containsKey(queryToken)) {
                 current = current.getChildren().get(queryToken);
             } else {
                 return null;
@@ -81,8 +86,6 @@ class JSONTagsTree implements QueryTree{
                 tagHolder.addChild(key, childHolder);
                 setUpTagHolder(childHolder);
             }
-        } else {
-            // No need to do anything. :)
         }
     }
 

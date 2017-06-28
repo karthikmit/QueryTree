@@ -7,6 +7,7 @@ import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Test cases for individual object Query Paths.
@@ -64,9 +65,24 @@ public class TagsTreeSyntaxTester {
         // Expected Value : B01LZKSVRB
         String query = "ItemSearchResponse->Items->Item[0]->ASIN";
         QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getXMLContent());
+        assert queryTree != null;
 
         String result = ((Node) queryTree.eval(query)).getTextContent();
         Assert.assertTrue(result.equals("B01LZKSVRB"));
+    }
+
+    @Test
+    public void testBasicPathAccessCollectionCase() throws IOException, SAXException, ParserConfigurationException {
+        // Standard text retrieval from Tags based path.
+        // Expected Value : B01LZKSVRB
+        String query = "ItemSearchResponse->Items->Item[*]";
+        QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getXMLContent());
+        assert queryTree != null;
+
+        List<Node> result = (List<Node>) queryTree.eval(query);
+        for(Node node : result) {
+            System.out.println(node.getTextContent());
+        }
     }
 
     @Test
@@ -75,6 +91,7 @@ public class TagsTreeSyntaxTester {
         // Expected Value : B01LZKSVRB
         String query = "ItemSearchResponse->Items";
         QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getXMLContent());
+        assert queryTree != null;
 
         Node result = ((Node) queryTree.eval(query));
         Assert.assertTrue(result.getNodeName().equals("Items"));
@@ -83,7 +100,18 @@ public class TagsTreeSyntaxTester {
     @Test
     public void testBasicAccessJSONCase() {
         QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getJSONContent());
+        assert queryTree != null;
+
         Object resultObject = queryTree.eval("problems[0]->Diabetes[0]->medications[0]->medicationsClasses[0]->className2[0]->associatedDrug#2[0]->name");
+        System.out.println(resultObject);
+    }
+
+    @Test
+    public void testBasicCollectionAccessJSONCase() {
+        QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getJSONContent());
+        assert queryTree != null;
+
+        Object resultObject = queryTree.eval("problems[0]->Diabetes[0]->medications[*]");
         System.out.println(resultObject);
     }
 }

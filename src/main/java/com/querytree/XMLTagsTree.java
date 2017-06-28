@@ -50,9 +50,8 @@ class XMLTagsTree implements QueryTree{
     }
 
     /**
-     * Returns null, if query can't be processed successfully.
-     * @param query
-     * @return
+     * @param query Object Path Query. Check {@link QueryTree}
+     * @return Dom Pointer if the query is successful, or null.
      */
     @Override
     public Object eval(String query) {
@@ -64,12 +63,21 @@ class XMLTagsTree implements QueryTree{
             if(queryToken.contains("[")) {
                 String[] split = queryToken.split("\\[");
                 queryToken = split[0];
+                List<XMLTagHolder> allTagHolders = current.getChildren().get(queryToken);
 
                 String indexSuffix = split[1];
                 indexSuffix = indexSuffix.split("\\]")[0];
-                int index = Integer.parseInt(indexSuffix);
-
-                current = current.getChildren().get(queryToken).get(index);
+                if(indexSuffix.equals("*")) {
+                    // Collect all nodes in a list and return.
+                    List<Object> nodePointersList = new ArrayList<>();
+                    for(XMLTagHolder holder : allTagHolders) {
+                        nodePointersList.add(holder.domPointer);
+                    }
+                    return nodePointersList;
+                } else {
+                    int index = Integer.parseInt(indexSuffix);
+                    current = allTagHolders.get(index);
+                }
             } else if(current.getChildren().containsKey(queryToken)) {
                 current = current.getChildren().get(queryToken).get(0);
             } else {
