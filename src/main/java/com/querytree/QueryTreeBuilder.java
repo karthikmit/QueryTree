@@ -6,7 +6,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 /**
- * Created by karthik on 27/06/17.
+ * Simple factory to figure out what QueryTree implementation to be returned based on the content.
  */
 public class QueryTreeBuilder {
 

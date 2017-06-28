@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Basic crawler tests.
+ * Basic performance tests.
  */
 public class PerformanceTests {
 
@@ -68,7 +68,7 @@ public class PerformanceTests {
     }
 
     @Test
-    public void testXMLPathWithTrieTags() {
+    public void testXMLPathWithQueryTree() {
 
         long startTime = System.nanoTime();
         int loopSize = 1000;

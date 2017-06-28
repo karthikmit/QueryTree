@@ -49,6 +49,11 @@ class XMLTagsTree implements QueryTree{
         return constructTagsTree(doc);
     }
 
+    /**
+     * Returns null, if query can't be processed successfully.
+     * @param query
+     * @return
+     */
     @Override
     public Object eval(String query) {
         String[] queryTokens = query.split("->");

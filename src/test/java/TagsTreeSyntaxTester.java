@@ -9,7 +9,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
 /**
- * Created by karthik on 27/06/17.
+ * Test cases for individual object Query Paths.
  */
 public class TagsTreeSyntaxTester {
 
@@ -82,8 +82,8 @@ public class TagsTreeSyntaxTester {
 
     @Test
     public void testBasicAccessJSONCase() {
-        QueryTree tagsTrie = QueryTreeBuilder.constructQueryTree(getJSONContent());
-
-        System.out.println(tagsTrie.eval("problems[0]->Diabetes[0]->medications[0]->medicationsClasses[0]->className2[0]->associatedDrug#2[0]->name"));
+        QueryTree queryTree = QueryTreeBuilder.constructQueryTree(getJSONContent());
+        Object resultObject = queryTree.eval("problems[0]->Diabetes[0]->medications[0]->medicationsClasses[0]->className2[0]->associatedDrug#2[0]->name");
+        System.out.println(resultObject);
     }
 }

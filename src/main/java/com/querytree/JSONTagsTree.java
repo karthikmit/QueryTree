@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by karthik on 27/06/17.
+ * QueryTree implementation for JSON content.
  */
 class JSONTagsTree implements QueryTree{
 
@@ -27,6 +27,11 @@ class JSONTagsTree implements QueryTree{
         return constructTagsTree(rootElement);
     }
 
+    /**
+     * Returns null, if query can't be processed successfully.
+     * @param query
+     * @return
+     */
     @Override
     public Object eval(String query) {
         String[] queryTokens = query.split("->");
